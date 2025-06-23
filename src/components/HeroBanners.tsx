@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroBanners = () => {
   return (
-    <section className="max-w-7xl mx-auto px-4 py-8">
+    <section className="container py-8">
       <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
         From caps to classroom: gear up for every milestone.
       </h2>

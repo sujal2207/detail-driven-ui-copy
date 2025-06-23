@@ -2,7 +2,7 @@ import React from "react";
 
 const ShopEarnSaveBanner = () => {
   return (
-    <section className="max-w-7xl mx-auto px-4 mt-8 mb-12">
+    <section className="container mt-8 mb-12">
       <div className="bg-red-700 rounded-2xl flex items-center justify-between p-8 relative min-h-[220px]">
         {/* App image */}
         <div className="flex-shrink-0">

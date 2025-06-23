@@ -16,17 +16,18 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <Header />
+      <CategoryNavBar />
+        <ProductGrid />
+      <EndlessSummerDealsGrid />
+        <CategorySection />
+      <CollegeMustHavesGrid />
+        <HeroBanners />
+      <EndlessSummerDealsGrid />
+        <ServicesSection />
       <ShopEarnSaveBanner />
       <StaplesBrandsGrid />
-      <EndlessSummerDealsGrid />
-      <CollegeMustHavesGrid />
-      <CategoryNavBar />
       <main>
-        <HeroBanners />
         <SponsoredAndDealsSection />
-        <ProductGrid />
-        <CategorySection />
-        <ServicesSection />
         <ExclusiveOfferSignup />
       </main>
       <Footer />
